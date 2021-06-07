@@ -1,0 +1,6 @@
+{
+    "DOMAIN" : "https://api.swinamz.com",
+    "RESOURCE_MINI_GAME_URL" : "https://api.swinamz.com/images/uploads/creator/",
+    "WS_MINIGAME_SOCKET_URL" : "wss://websocket.swinamz.com/websocket",
+    "BRAND" : "sun.win"
+}
