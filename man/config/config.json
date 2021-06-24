@@ -3,5 +3,15 @@
     "api_domain": "https://api.xeui.io/",
     "rs_domain": "https://resources.xwin.info/bundles/",
     "appName": "789club",
-    "brand": "789.club"
+    "brand": "789.club",
+    "bundles": {
+      "lobby" : {
+        "totalTextFileCount" : 2169,
+        "totalTextImageCount" : 110
+      },
+      "slot_220" : {
+        "totalTextFileCount" : 2169,
+        "totalTextImageCount" : 110
+      }
+    }
 }
