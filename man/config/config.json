@@ -1,5 +1,7 @@
 {
     "host_domain": "https://cfg.xeui.io/",
     "api_domain": "https://api.xeui.io/",
-    "rs_domain": "https://resources.xwin.info/bundles/"
+    "rs_domain": "https://resources.xwin.info/bundles/",
+    "appName": "789club",
+    "brand": "789.club"
 }
