@@ -6,16 +6,16 @@
     "brand": "789.club",
     "bundles": {
       "lobby" : {
-        "totalTextFileCount" : 2171,
-        "totalTextImageCount" : 110
+        "totalTextFileCount" : 2174,
+        "totalTextImageCount" : 114
       },
       "slot_220" : {
         "totalTextFileCount" : 555,
         "totalTextImageCount" : 49
       },
       "slot_221" : {
-        "totalTextFileCount" : 405,
-        "totalTextImageCount" : 27
+        "totalTextFileCount" : 478,
+        "totalTextImageCount" : 41
       }
     }
 }
