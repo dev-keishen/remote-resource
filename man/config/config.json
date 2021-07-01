@@ -1,9 +1,9 @@
 {
-    "host_domain": "https://cfg.xeui.io/",
-    "api_domain": "https://api.xeui.io/",
+    "host_domain": "https://cfg.mangun.io/",
+    "api_domain": "https://api.mangun.io/",
     "rs_domain": "https://resources.xwin.info/bundles/",
-    "appName": "789club",
-    "brand": "789.club",
+    "appName": "manclub",
+    "brand": "man.club",
     "bundles": {
       "lobby" : {
         "totalTextFileCount" : 2174,
