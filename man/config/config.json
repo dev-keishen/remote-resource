@@ -7,19 +7,19 @@
     "bundles": {
       "lobby" : {
         "totalTextFileCount" : 2174,
-        "totalTextImageCount" : 114
+        "totalTextImageCount" : 122
       },
       "slot_220" : {
         "totalTextFileCount" : 555,
         "totalTextImageCount" : 49
       },
       "slot_221" : {
-        "totalTextFileCount" : 478,
-        "totalTextImageCount" : 41
+        "totalTextFileCount" : 627,
+        "totalTextImageCount" : 46
       },
       "slot_205" : {
-        "totalTextFileCount" : 478,
-        "totalTextImageCount" : 41
+        "totalTextFileCount" : 369,
+        "totalTextImageCount" : 53
       }
     }
 }
