@@ -1,1 +1,29 @@
-ewogICAgImhvc3RfZG9tYWluIjogImh0dHBzOi8vY2ZnLnhldWkuaW8vIiwKICAgICJhcGlfZG9tYWluIjogImh0dHBzOi8vYXBpLnhldWkuaW8vIiwKICAgICJyc19kb21haW4iOiAiaHR0cHM6Ly9yZXNvdXJjZXMueHdpbi5pbmZvL2J1bmRsZXMvIiwKICAgICJhcHBOYW1lIjogIjc4OWNsdWIiLAogICAgImJyYW5kIjogIjc4OS5jbHViIiwKICAgICJidW5kbGVzIjogewogICAgICAibG9iYnkiIDogewogICAgICAgICJ0b3RhbFRleHRGaWxlQ291bnQiIDogMjE3NCwKICAgICAgICAidG90YWxUZXh0SW1hZ2VDb3VudCIgOiAxMjIKICAgICAgfSwKICAgICAgInNsb3RfMjIwIiA6IHsKICAgICAgICAidG90YWxUZXh0RmlsZUNvdW50IiA6IDU1NSwKICAgICAgICAidG90YWxUZXh0SW1hZ2VDb3VudCIgOiA0OQogICAgICB9LAogICAgICAic2xvdF8yMjEiIDogewogICAgICAgICJ0b3RhbFRleHRGaWxlQ291bnQiIDogNjI3LAogICAgICAgICJ0b3RhbFRleHRJbWFnZUNvdW50IiA6IDQ2CiAgICAgIH0sCiAgICAgICJzbG90XzIwNSIgOiB7CiAgICAgICAgInRvdGFsVGV4dEZpbGVDb3VudCIgOiAzNjksCiAgICAgICAgInRvdGFsVGV4dEltYWdlQ291bnQiIDogNTMKICAgICAgfSwKICAgICAgInNsb3RfMjA0IiA6IHsKICAgICAgICAidG90YWxUZXh0RmlsZUNvdW50IiA6IDM2OSwKICAgICAgICAidG90YWxUZXh0SW1hZ2VDb3VudCIgOiA1MwogICAgICB9CiAgICB9Cn0K
+{
+    "host_domain": "https://cfg.xeui.io/",
+    "api_domain": "https://api.xeui.io/",
+    "rs_domain": "https://resources.xwin.info/bundles/",
+    "appName": "789club",
+    "brand": "789.club",
+    "bundles": {
+      "lobby" : {
+        "totalTextFileCount" : 2174,
+        "totalTextImageCount" : 122
+      },
+      "slot_220" : {
+        "totalTextFileCount" : 555,
+        "totalTextImageCount" : 49
+      },
+      "slot_221" : {
+        "totalTextFileCount" : 627,
+        "totalTextImageCount" : 46
+      },
+      "slot_205" : {
+        "totalTextFileCount" : 369,
+        "totalTextImageCount" : 53
+      },
+      "slot_204" : {
+        "totalTextFileCount" : 369,
+        "totalTextImageCount" : 53
+      }
+    }
+}
