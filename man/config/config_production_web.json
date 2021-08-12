@@ -1,1 +1,49 @@
-{"host_domain":"https://cfg.mangun.io/","api_domain":"https://api.mangun.io/","rs_domain":"https://play.man.club/","appName":"manclub","brand":"man.club","bundles":{"lobby":{"totalTextFileCount":1071,"totalTextImageCount":80},"slot_220":{"totalTextFileCount":557,"totalTextImageCount":50},"slot_221":{"totalTextFileCount":631,"totalTextImageCount":46},"slot_205":{"totalTextFileCount":389,"totalTextImageCount":57},"slot_204":{"totalTextFileCount":246,"totalTextImageCount":49},"table-game":{"totalTextFileCount":302,"totalTextImageCount":18},"slot_mnpk":{"totalTextFileCount":289,"totalTextImageCount":9},"slot_man":{"totalTextFileCount":231,"totalTextImageCount":14},"tlmn_sam_poker":{"totalTextFileCount":206,"totalTextImageCount":15},"lodesieutoc":{"totalTextFileCount":206,"totalTextImageCount":15}}}
+{
+  "host_domain": "https://cfg.mangun.io/",
+  "api_domain": "https://api.mangun.io/",
+  "rs_domain": "https://play.man.club/",
+  "appName": "manclub",
+  "brand": "man.club",
+  "bundles": {
+    "lobby": {
+      "totalTextFileCount": 1101,
+      "totalTextImageCount": 84
+    },
+    "slot_220": {
+      "totalTextFileCount": 558,
+      "totalTextImageCount": 51
+    },
+    "slot_221": {
+      "totalTextFileCount": 636,
+      "totalTextImageCount": 48
+    },
+    "slot_205": {
+      "totalTextFileCount": 392,
+      "totalTextImageCount": 58
+    },
+    "slot_204": {
+      "totalTextFileCount": 253,
+      "totalTextImageCount": 51
+    },
+    "table-game": {
+      "totalTextFileCount": 299,
+      "totalTextImageCount": 17
+    },
+    "slot_mnpk": {
+      "totalTextFileCount": 289,
+      "totalTextImageCount": 9
+    },
+    "slot_man": {
+      "totalTextFileCount": 231,
+      "totalTextImageCount": 14
+    },
+    "tlmn_sam_poker": {
+      "totalTextFileCount": 208,
+      "totalTextImageCount": 16
+    },
+    "lodesieutoc": {
+      "totalTextFileCount": 206,
+      "totalTextImageCount": 15
+    }
+  }
+}
