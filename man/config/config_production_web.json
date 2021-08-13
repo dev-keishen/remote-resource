@@ -1,7 +1,7 @@
 {
   "host_domain": "https://cfg.mangun.io/",
   "api_domain": "https://api.mangun.io/",
-  "rs_domain": "https://play.man.club/",
+  "rs_domain": "https://resources.man.club/bundles/",
   "appName": "manclub",
   "brand": "man.club",
   "bundles": {
