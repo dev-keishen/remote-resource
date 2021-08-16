@@ -7,28 +7,28 @@
   "brand": "man.club",
   "bundles": {
     "lobby": {
-      "totalTextFileCount": 1101,
-      "totalTextImageCount": 84
+      "totalTextFileCount": 1104,
+      "totalTextImageCount": 86
     },
     "slot_220": {
-      "totalTextFileCount": 572,
-      "totalTextImageCount": 60
+      "totalTextFileCount": 582,
+      "totalTextImageCount": 70
     },
     "slot_221": {
-      "totalTextFileCount": 675,
-      "totalTextImageCount": 55
+      "totalTextFileCount": 692,
+      "totalTextImageCount": 72
     },
     "slot_205": {
-      "totalTextFileCount": 392,
-      "totalTextImageCount": 58
+      "totalTextFileCount": 410,
+      "totalTextImageCount": 74
     },
     "slot_204": {
-      "totalTextFileCount": 260,
-      "totalTextImageCount": 56
+      "totalTextFileCount": 276,
+      "totalTextImageCount": 72
     },
     "table-game": {
-      "totalTextFileCount": 304,
-      "totalTextImageCount": 19
+      "totalTextFileCount": 306,
+      "totalTextImageCount": 20
     },
     "slot_mnpk": {
       "totalTextFileCount": 289,
