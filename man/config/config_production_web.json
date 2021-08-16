@@ -2,6 +2,7 @@
   "host_domain": "https://cfg.mangun.io/",
   "api_domain": "https://api.mangun.io/",
   "rs_domain": "https://play.man.club/",
+  "sport_domain": "https://sport.mangun.io/",
   "appName": "manclub",
   "brand": "man.club",
   "bundles": {
