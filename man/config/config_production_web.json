@@ -7,8 +7,8 @@
   "brand": "man.club",
   "bundles": {
     "lobby": {
-      "totalTextFileCount": 1174,
-      "totalTextImageCount": 101
+      "totalTextFileCount": 1147,
+      "totalTextImageCount": 90
     },
     "slot_220": {
       "totalTextFileCount": 582,
@@ -45,6 +45,10 @@
     "lodesieutoc": {
       "totalTextFileCount": 258,
       "totalTextImageCount": 26
+    },
+    "livecasino": {
+      "totalTextFileCount": 33,
+      "totalTextImageCount": 12
     }
   }
 }
