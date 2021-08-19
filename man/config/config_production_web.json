@@ -7,8 +7,8 @@
   "brand": "man.club",
   "bundles": {
     "lobby": {
-      "totalTextFileCount": 1147,
-      "totalTextImageCount": 90
+      "totalTextFileCount": 1155,
+      "totalTextImageCount": 91
     },
     "slot_220": {
       "totalTextFileCount": 582,
@@ -28,7 +28,7 @@
     },
     "table-game": {
       "totalTextFileCount": 306,
-      "totalTextImageCount": 20
+      "totalTextImageCount": 22
     },
     "slot_mnpk": {
       "totalTextFileCount": 289,
@@ -39,11 +39,11 @@
       "totalTextImageCount": 14
     },
     "tlmn_sam_poker": {
-      "totalTextFileCount": 208,
+      "totalTextFileCount": 210,
       "totalTextImageCount": 16
     },
     "lodesieutoc": {
-      "totalTextFileCount": 258,
+      "totalTextFileCount": 257,
       "totalTextImageCount": 26
     },
     "livecasino": {
