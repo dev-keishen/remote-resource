@@ -7,35 +7,35 @@
   "brand": "man.club",
   "bundles": {
     "lobby": {
-      "totalTextFileCount": 1178,
+      "totalTextFileCount": 1183,
       "totalTextImageCount": 93
     },
     "slot_220": {
       "totalTextFileCount": 582,
-      "totalTextImageCount": 70
+      "totalTextImageCount": 57
     },
     "slot_221": {
-      "totalTextFileCount": 692,
-      "totalTextImageCount": 72
+      "totalTextFileCount": 697,
+      "totalTextImageCount": 60
     },
     "slot_205": {
       "totalTextFileCount": 410,
-      "totalTextImageCount": 74
+      "totalTextImageCount": 57
     },
     "slot_204": {
-      "totalTextFileCount": 276,
-      "totalTextImageCount": 72
+      "totalTextFileCount": 279,
+      "totalTextImageCount": 56
     },
     "table-game": {
-      "totalTextFileCount": 306,
-      "totalTextImageCount": 22
+      "totalTextFileCount": 351,
+      "totalTextImageCount": 36
     },
     "slot_mnpk": {
-      "totalTextFileCount": 289,
+      "totalTextFileCount": 292,
       "totalTextImageCount": 9
     },
     "slot_man": {
-      "totalTextFileCount": 231,
+      "totalTextFileCount": 234,
       "totalTextImageCount": 14
     },
     "tlmn_sam_poker": {
@@ -52,7 +52,7 @@
     },
     "ca": {
       "totalTextFileCount": 1378,
-      "totalTextImageCount": 150
+      "totalTextImageCount": 148
     }
   }
 }
