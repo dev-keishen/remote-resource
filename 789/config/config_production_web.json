@@ -53,6 +53,14 @@
     "ca": {
       "totalTextFileCount": 1378,
       "totalTextImageCount": 148
+    },
+    "dragonball": {
+      "totalTextFileCount": 234,
+      "totalTextImageCount": 14
+    },
+    "trenduoi": {
+      "totalTextFileCount": 234,
+      "totalTextImageCount": 14
     }
   }
 }
