@@ -7,12 +7,12 @@
   "brand": "789.club",
   "bundles": {
     "lobby": {
-      "totalTextFileCount": 1183,
-      "totalTextImageCount": 93
+      "totalTextFileCount": 1041,
+      "totalTextImageCount": 77
     },
     "slot_naruto": {
-      "totalTextFileCount": 582,
-      "totalTextImageCount": 57
+      "totalTextFileCount": 307,
+      "totalTextImageCount": 56
     },
     "slot_pvz": {
       "totalTextFileCount": 803,
@@ -23,12 +23,12 @@
       "totalTextImageCount": 57
     },
     "slot_dc": {
-      "totalTextFileCount": 279,
-      "totalTextImageCount": 56
+      "totalTextFileCount": 316,
+      "totalTextImageCount": 54
     },
     "table-game": {
-      "totalTextFileCount": 351,
-      "totalTextImageCount": 36
+      "totalTextFileCount": 247,
+      "totalTextImageCount": 20
     },
     "slot_mnpk": {
       "totalTextFileCount": 292,
@@ -39,8 +39,8 @@
       "totalTextImageCount": 14
     },
     "tlmn_sam_poker": {
-      "totalTextFileCount": 156,
-      "totalTextImageCount": 14
+      "totalTextFileCount": 224,
+      "totalTextImageCount": 13
     },
     "lodesieutoc": {
       "totalTextFileCount": 259,
