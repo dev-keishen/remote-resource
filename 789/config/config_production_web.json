@@ -7,8 +7,8 @@
   "brand": "789.club",
   "bundles": {
     "lobby": {
-      "totalTextFileCount": 1041,
-      "totalTextImageCount": 77
+      "totalTextFileCount": 1042,
+      "totalTextImageCount": 76
     },
     "slot_naruto": {
       "totalTextFileCount": 307,
@@ -19,8 +19,8 @@
       "totalTextImageCount": 246
     },
     "slot_angrybird": {
-      "totalTextFileCount": 410,
-      "totalTextImageCount": 57
+      "totalTextFileCount": 423,
+      "totalTextImageCount": 58
     },
     "slot_dc": {
       "totalTextFileCount": 316,
