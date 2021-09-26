@@ -1,6 +1,7 @@
 {
   "host_domain": "https://cfg.xeui.io/",
   "api_domain": "https://api.xeui.io/",
+  "iFrame_domain": "https://resources.xwin.info/789/",
   "rs_domain": "https://resources.xwin.info/789/web/",
   "sport_domain": "https://sport.xeui.io/",
   "appName": "789club",
