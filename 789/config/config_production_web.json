@@ -8,36 +8,36 @@
   "brand": "789.club",
   "bundles": {
     "lobby": {
-      "totalTextFileCount": 1042,
-      "totalTextImageCount": 76
+      "totalTextFileCount": 1061,
+      "totalTextImageCount": 71
     },
     "slot_naruto": {
-      "totalTextFileCount": 307,
+      "totalTextFileCount": 310,
       "totalTextImageCount": 56
     },
     "slot_pvz": {
-      "totalTextFileCount": 803,
-      "totalTextImageCount": 246
+      "totalTextFileCount": 695,
+      "totalTextImageCount": 139
     },
     "slot_angrybird": {
       "totalTextFileCount": 423,
-      "totalTextImageCount": 58
+      "totalTextImageCount": 57
     },
     "slot_dc": {
-      "totalTextFileCount": 316,
-      "totalTextImageCount": 54
+      "totalTextFileCount": 318,
+      "totalTextImageCount": 55
     },
     "table-game": {
-      "totalTextFileCount": 247,
-      "totalTextImageCount": 20
+      "totalTextFileCount": 251,
+      "totalTextImageCount": 23
     },
     "slot_mnpk": {
-      "totalTextFileCount": 292,
-      "totalTextImageCount": 9
+      "totalTextFileCount": 298,
+      "totalTextImageCount": 6
     },
     "slot_man": {
-      "totalTextFileCount": 234,
-      "totalTextImageCount": 14
+      "totalTextFileCount": 223,
+      "totalTextImageCount": 13
     },
     "tlmn_sam_poker": {
       "totalTextFileCount": 680,
@@ -56,12 +56,12 @@
       "totalTextImageCount": 148
     },
     "dragonball": {
-      "totalTextFileCount": 234,
-      "totalTextImageCount": 14
+      "totalTextFileCount": 247,
+      "totalTextImageCount": 6
     },
     "trenduoi": {
-      "totalTextFileCount": 234,
-      "totalTextImageCount": 14
+      "totalTextFileCount": 260,
+      "totalTextImageCount": 25
     }
   }
 }
