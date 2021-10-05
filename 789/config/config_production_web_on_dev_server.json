@@ -1,0 +1,71 @@
+{
+  "host_domain": "https://cfg.xeui.io/",
+  "api_domain": "https://api.xeui.io/",
+  "iFrame_domain": "https://resources.xwin.info/789-02/",
+  "rs_domain": "https://resources.xwin.info/789-02/",
+  "sport_domain": "https://sport.xeui.io/",
+  "appName": "789club",
+  "brand": "789.club",
+  "bundles": {
+    "lobby": {
+      "totalTextFileCount": 1176,
+      "totalTextImageCount": 75
+    },
+    "lode": {
+      "totalTextFileCount": 310,
+      "totalTextImageCount": 56
+    },
+    "slot_naruto": {
+      "totalTextFileCount": 310,
+      "totalTextImageCount": 56
+    },
+    "slot_pvz": {
+      "totalTextFileCount": 695,
+      "totalTextImageCount": 139
+    },
+    "slot_angrybird": {
+      "totalTextFileCount": 423,
+      "totalTextImageCount": 57
+    },
+    "slot_dc": {
+      "totalTextFileCount": 318,
+      "totalTextImageCount": 55
+    },
+    "table-game": {
+      "totalTextFileCount": 251,
+      "totalTextImageCount": 23
+    },
+    "slot_mnpk": {
+      "totalTextFileCount": 298,
+      "totalTextImageCount": 6
+    },
+    "slot_man": {
+      "totalTextFileCount": 223,
+      "totalTextImageCount": 13
+    },
+    "tlmn_sam_poker": {
+      "totalTextFileCount": 680,
+      "totalTextImageCount": 219
+    },
+    "lodesieutoc": {
+      "totalTextFileCount": 259,
+      "totalTextImageCount": 27
+    },
+    "livecasino": {
+      "totalTextFileCount": 33,
+      "totalTextImageCount": 12
+    },
+    "ca": {
+      "totalTextFileCount": 1378,
+      "totalTextImageCount": 148
+    },
+    "dragonball": {
+      "totalTextFileCount": 247,
+      "totalTextImageCount": 6
+    },
+    "trenduoi": {
+      "totalTextFileCount": 260,
+      "totalTextImageCount": 25
+    }
+  }
+}
