@@ -11,10 +11,6 @@
       "totalTextFileCount": 1176,
       "totalTextImageCount": 75
     },
-    "lode": {
-      "totalTextFileCount": 310,
-      "totalTextImageCount": 56
-    },
     "slot_naruto": {
       "totalTextFileCount": 310,
       "totalTextImageCount": 56
@@ -66,6 +62,10 @@
     "trenduoi": {
       "totalTextFileCount": 260,
       "totalTextImageCount": 25
+    },
+    "lode": {
+      "totalTextFileCount": 310,
+      "totalTextImageCount": 56
     }
   }
 }
