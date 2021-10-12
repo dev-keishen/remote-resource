@@ -8,8 +8,8 @@
   "brand": "sun.win",
   "bundles": {
     "lobby": {
-      "totalTextFileCount": 1176,
-      "totalTextImageCount": 75
+      "totalTextFileCount": 1330,
+      "totalTextImageCount": 122
     },
     "slot_naruto": {
       "totalTextFileCount": 310,
@@ -23,21 +23,21 @@
       "totalTextFileCount": 423,
       "totalTextImageCount": 57
     },
-    "slot_dc": {
+    "slot_thantai": {
       "totalTextFileCount": 318,
       "totalTextImageCount": 55
     },
     "table-game": {
-      "totalTextFileCount": 251,
-      "totalTextImageCount": 23
+      "totalTextFileCount": 214,
+      "totalTextImageCount": 29
     },
     "slot_mnpk": {
-      "totalTextFileCount": 298,
-      "totalTextImageCount": 6
+      "totalTextFileCount": 236,
+      "totalTextImageCount": 3
     },
     "slot_man": {
-      "totalTextFileCount": 223,
-      "totalTextImageCount": 13
+      "totalTextFileCount": 172,
+      "totalTextImageCount": 6
     },
     "tlmn_sam_poker": {
       "totalTextFileCount": 680,
@@ -56,12 +56,12 @@
       "totalTextImageCount": 148
     },
     "dragonball": {
-      "totalTextFileCount": 247,
-      "totalTextImageCount": 6
+      "totalTextFileCount": 313,
+      "totalTextImageCount": 40
     },
     "trenduoi": {
-      "totalTextFileCount": 260,
-      "totalTextImageCount": 25
+      "totalTextFileCount": 303,
+      "totalTextImageCount": 23
     }
   }
 }
