@@ -7,10 +7,38 @@
   "appName": "sunprod",
   "brand": "sun.win",
   "files_config": {
-      "a": {
-        "totalTextFileCount": 1330,
-        "totalTextImageCount": 122
-      }
+    "prefab_baucua": {
+      "totalTextFileCount": 250,
+      "totalTextImageCount": 23
+    },
+    "prefab_xocdia": {
+      "totalTextFileCount": 201,
+      "totalTextImageCount": 18
+    },
+    "prefab_tlmn": {
+      "totalTextFileCount": 215,
+      "totalTextImageCount": 11
+    },
+    "prefab_sam": {
+      "totalTextFileCount": 200,
+      "totalTextImageCount": 12
+    },
+    "binh": {
+      "totalTextFileCount": 650,
+      "totalTextImageCount": 198
+    },
+    "lieng": {
+      "totalTextFileCount": 692,
+      "totalTextImageCount": 214
+    },
+    "poker": {
+      "totalTextFileCount": 679,
+      "totalTextImageCount": 210
+    },
+    "xito": {
+      "totalTextFileCount": 682,
+      "totalTextImageCount": 211
+    }
   },
   "bundles": {
     "lobby": {
