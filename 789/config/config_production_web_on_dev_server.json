@@ -8,36 +8,36 @@
   "brand": "789.club",
   "files_config": {
     "prefab_baucua": {
-      "totalTextFileCount": 251,
+      "totalTextFileCount": 250,
       "totalTextImageCount": 23
     },
     "prefab_xocdia": {
-      "totalTextFileCount": 251,
-      "totalTextImageCount": 23
+      "totalTextFileCount": 201,
+      "totalTextImageCount": 18
     },
     "prefab_tlmn": {
-      "totalTextFileCount": 300,
-      "totalTextImageCount": 50
+      "totalTextFileCount": 215,
+      "totalTextImageCount": 11
     },
     "prefab_sam": {
-      "totalTextFileCount": 300,
-      "totalTextImageCount": 50
+      "totalTextFileCount": 200,
+      "totalTextImageCount": 12
     },
     "binh": {
-      "totalTextFileCount": 680,
-      "totalTextImageCount": 219
+      "totalTextFileCount": 650,
+      "totalTextImageCount": 198
     },
     "lieng": {
-      "totalTextFileCount": 680,
-      "totalTextImageCount": 219
+      "totalTextFileCount": 692,
+      "totalTextImageCount": 214
     },
     "poker": {
-      "totalTextFileCount": 680,
-      "totalTextImageCount": 219
+      "totalTextFileCount": 679,
+      "totalTextImageCount": 210
     },
     "xito": {
-      "totalTextFileCount": 680,
-      "totalTextImageCount": 219
+      "totalTextFileCount": 682,
+      "totalTextImageCount": 211
     }
   },
   "bundles": {
@@ -46,12 +46,12 @@
       "totalTextImageCount": 75
     },
     "cc30-aladin-9976": {
-      "totalTextFileCount": 1176,
-      "totalTextImageCount": 56
+      "totalTextFileCount": 1103,
+      "totalTextImageCount": 310
     },
     "cc30-sicbo-dp-3986": {
-      "totalTextFileCount": 1176,
-      "totalTextImageCount": 56
+      "totalTextFileCount": 988,
+      "totalTextImageCount": 87
     },
     "lode": {
       "totalTextFileCount": 310,
