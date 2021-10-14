@@ -6,6 +6,40 @@
   "sport_domain": "https://sport.xeui.io/",
   "appName": "789club",
   "brand": "789.club",
+  "file_config": {
+    "prefab_baucua": {
+      "totalTextFileCount": 251,
+      "totalTextImageCount": 23
+    },
+    "prefab_xocdia": {
+      "totalTextFileCount": 251,
+      "totalTextImageCount": 23
+    },
+    "prefab_tlmn": {
+      "totalTextFileCount": 300,
+      "totalTextImageCount": 50
+    },
+    "prefab_sam": {
+      "totalTextFileCount": 300,
+      "totalTextImageCount": 50
+    },
+    "binh": {
+      "totalTextFileCount": 680,
+      "totalTextImageCount": 219
+    },
+    "lieng": {
+      "totalTextFileCount": 680,
+      "totalTextImageCount": 219
+    },
+    "poker": {
+      "totalTextFileCount": 680,
+      "totalTextImageCount": 219
+    },
+    "xito": {
+      "totalTextFileCount": 680,
+      "totalTextImageCount": 219
+    }
+  },
   "bundles": {
     "lobby": {
       "totalTextFileCount": 1176,
