@@ -6,6 +6,8 @@
   "sport_domain": "https://sport.xeui.io/",
   "appName": "sunprod",
   "brand": "sun.win",
+  "files_config": {
+  },
   "bundles": {
     "lobby": {
       "totalTextFileCount": 1330,
