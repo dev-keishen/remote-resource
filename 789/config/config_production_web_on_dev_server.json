@@ -6,7 +6,7 @@
   "sport_domain": "https://sport.xeui.io/",
   "appName": "789club",
   "brand": "789.club",
-  "file_config": {
+  "files_config": {
     "prefab_baucua": {
       "totalTextFileCount": 251,
       "totalTextImageCount": 23
