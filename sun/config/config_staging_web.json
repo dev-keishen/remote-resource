@@ -41,6 +41,10 @@
     }
   },
   "bundles": {
+"testtesttest": {
+      "totalTextFileCount": 1330,
+      "totalTextImageCount": 122
+    },
     "lobby": {
       "totalTextFileCount": 1330,
       "totalTextImageCount": 122
