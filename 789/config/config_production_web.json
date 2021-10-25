@@ -1,8 +1,8 @@
 {
   "host_domain": "https://cfg.xeui.io/",
   "api_domain": "https://api.xeui.io/",
-  "iFrame_domain": "https://game.789club.biz/",
-  "rs_domain": "https://game.789club.biz/",
+  "iFrame_domain": "https://game.789club.com/",
+  "rs_domain": "https://game.789club.com/",
   "sport_domain": "https://sport.xeui.io/",
   "appName": "789club",
   "brand": "789.club",
