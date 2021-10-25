@@ -1,8 +1,8 @@
 {
   "host_domain": "https://cfg.swincloud.net/",
   "api_domain": "https://api.swincloud.net/",
-  "iFrame_domain": "https://resources.xwin.info/sun-prod/",
-  "rs_domain": "https://resources.xwin.info/sun-prod/",
+  "iFrame_domain": "https://resources.xwin.info/sun/",
+  "rs_domain": "https://resources.xwin.info/sun/",
   "sport_domain": "https://sport.xeui.io/",
   "appName": "sunprod",
   "brand": "sun.win",
