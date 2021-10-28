@@ -12,58 +12,58 @@
       "totalTextImageCount": 23
     },
     "prefab_xocdia": {
-      "totalTextFileCount": 201,
-      "totalTextImageCount": 18
+      "totalTextFileCount": 225,
+      "totalTextImageCount": 14
     },
     "prefab_tlmn": {
-      "totalTextFileCount": 215,
-      "totalTextImageCount": 11
+      "totalTextFileCount": 302,
+      "totalTextImageCount": 10
     },
     "prefab_sam": {
-      "totalTextFileCount": 200,
-      "totalTextImageCount": 12
+      "totalTextFileCount": 285,
+      "totalTextImageCount": 11
     },
     "binh": {
-      "totalTextFileCount": 650,
-      "totalTextImageCount": 198
+      "totalTextFileCount": 540,
+      "totalTextImageCount": 63
     },
     "lieng": {
-      "totalTextFileCount": 692,
-      "totalTextImageCount": 214
+      "totalTextFileCount": 541,
+      "totalTextImageCount": 62
     },
     "poker": {
-      "totalTextFileCount": 679,
-      "totalTextImageCount": 210
+      "totalTextFileCount": 540,
+      "totalTextImageCount": 62
     },
     "xito": {
-      "totalTextFileCount": 682,
-      "totalTextImageCount": 211
+      "totalTextFileCount": 541,
+      "totalTextImageCount": 62
     }
   },
   "bundles": {
     "lobby": {
-      "totalTextFileCount": 1330,
-      "totalTextImageCount": 122
+      "totalTextFileCount": 1357,
+      "totalTextImageCount": 127
     },
     "slot_naruto": {
-      "totalTextFileCount": 310,
-      "totalTextImageCount": 56
+      "totalTextFileCount": 322,
+      "totalTextImageCount": 59
     },
     "lode": {
-      "totalTextFileCount": 310,
-      "totalTextImageCount": 56
+      "totalTextFileCount": 249,
+      "totalTextImageCount": 24
     },
     "slot_pvz": {
-      "totalTextFileCount": 695,
-      "totalTextImageCount": 139
+      "totalTextFileCount": 723,
+      "totalTextImageCount": 156
     },
     "slot_angrybird": {
       "totalTextFileCount": 423,
       "totalTextImageCount": 57
     },
     "slot_thantai": {
-      "totalTextFileCount": 318,
-      "totalTextImageCount": 55
+      "totalTextFileCount": 293,
+      "totalTextImageCount": 52
     },
     "table-game": {
       "totalTextFileCount": 214,
@@ -94,8 +94,8 @@
       "totalTextImageCount": 148
     },
     "dragonball": {
-      "totalTextFileCount": 313,
-      "totalTextImageCount": 40
+      "totalTextFileCount": 143,
+      "totalTextImageCount": 14
     },
     "trenduoi": {
       "totalTextFileCount": 303,
