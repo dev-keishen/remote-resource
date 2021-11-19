@@ -1,11 +1,11 @@
 {
-  "host_domain": "https://cfg.swinshop.net/",
-  "api_domain": "https://api.swinshop.net/",
+  "host_domain": "https://cfg.xeui.io/",
+  "api_domain": "https://api.xeui.io/",
   "iFrame_domain": "https://resources.xwin.info/sun/",
   "rs_domain": "https://resources.xwin.info/sun/",
-  "sport_domain": "https://sport.swinshop.io/",
-  "appName": "sunprod",
-  "brand": "sun.win",
+  "sport_domain": "https://sport.xeui.io/",
+  "appName": "789club",
+  "brand": "789.club",
   "files_config": {
     "prefab_baucua": {
       "totalTextFileCount": 250,
@@ -70,8 +70,8 @@
       "totalTextImageCount": 57
     },
     "slot_thantai": {
-      "totalTextFileCount": 318,
-      "totalTextImageCount": 56
+      "totalTextFileCount": 293,
+      "totalTextImageCount": 52
     },
     "table-game": {
       "totalTextFileCount": 214,
