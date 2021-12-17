@@ -24,11 +24,15 @@
       "totalTextImageCount": 12
     },
     "binh": {
-      "totalTextFileCount": 650,
-      "totalTextImageCount": 198
+      "totalTextFileCount": 679,
+      "totalTextImageCount": 206
+    },
+    "phom": {
+      "totalTextFileCount": 658,
+      "totalTextImageCount": 204
     },
     "lieng": {
-      "totalTextFileCount": 692,
+      "totalTextFileCount": 699,
       "totalTextImageCount": 214
     },
     "poker": {
