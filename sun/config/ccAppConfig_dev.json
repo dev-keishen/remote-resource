@@ -1,0 +1,9 @@
+{
+    "DOMAIN" : "https://api.xwin.info",
+    "RESOURCE_MINI_GAME_URL" : "https://api.swincloud.net/images/uploads/creator/",
+    "RESOURCE_MINI_GAME_URL_APP" : "https://rs.staticmt.com/",
+    "RESOURCE_MINI_GAME_URL_WEB" : "https://staticmt.com/minigame/",
+    "WS_MINIGAME_SOCKET_URL" : "wss://websocket.xwin.info/websocket",
+    "HELP_URL" : "https://sun.luatchoi.club/luat-choi?x=1&gameId=100",
+    "BRAND" : "sun.win"
+}
