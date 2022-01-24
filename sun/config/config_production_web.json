@@ -4,6 +4,8 @@
   "iFrame_domain": "https://web.sunvn.vin/",
   "rs_domain": "https://staticmt.com/",
   "sport_domain": "https://sport.swinshop.io/",
+  "ws_sport_domain": "wss://wssport.swinshop.io/websocket",
+  "tx_livestream_domain": "https://gs.gameland.vip/api-livecasino-go/api/v1/",
   "appName": "sunprod",
   "brand": "sun.win",
   "files_config": {
@@ -112,6 +114,10 @@
     "trenduoi": {
       "totalTextFileCount": 311,
       "totalTextImageCount": 27
+    },
+    "taixiulivestream": {
+      "totalTextFileCount": 303,
+      "totalTextImageCount": 23
     }
   }
 }
