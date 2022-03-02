@@ -21,8 +21,8 @@
       "totalTextImageCount": 14
     },
     "prefab_xocdia_tulinh": {
-      "totalTextFileCount": 322,
-      "totalTextImageCount": 21
+      "totalTextFileCount": 329,
+      "totalTextImageCount": 22
     },
     "prefab_tlmn": {
       "totalTextFileCount": 302,
@@ -51,8 +51,8 @@
   },
   "bundles": {
     "lobby": {
-      "totalTextFileCount": 1420,
-      "totalTextImageCount": 143
+      "totalTextFileCount": 1434,
+      "totalTextImageCount": 145
     },
     "slot_naruto": {
       "totalTextFileCount": 322,
