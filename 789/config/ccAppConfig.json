@@ -1,8 +1,8 @@
 {
-    "DOMAIN" : "https://api.xeui.io",
-    "RESOURCE_MINI_GAME_URL" : "https://api.xeui.io/images/uploads/creator/",
+    "DOMAIN" : "https://api.xeui.live",
+    "RESOURCE_MINI_GAME_URL" : "https://api.xeui.live/images/uploads/creator/",
     "RESOURCE_MINI_GAME_URL_WEB" : "https://game.789a.club/minigame/",
-    "WS_MINIGAME_SOCKET_URL" : "wss://websocket.xeui.io/websocket",
+    "WS_MINIGAME_SOCKET_URL" : "wss://websocket.xeui.live/websocket",
     "HELP_URL" : "https://kenhgame.cc/luat-choi?x=1&gameId=219",
     "BRAND" : "789.club"
 }
