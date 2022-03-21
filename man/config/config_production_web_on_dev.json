@@ -1,8 +1,8 @@
 {
-  "host_domain": "https://cfg.mangun.io/",
-  "api_domain": "https://api.mangun.io/",
+  "host_domain": "https://cfg.mangun.live/",
+  "api_domain": "https://api.mangun.live/",
   "rs_domain": "https://resources.xwin.info/web/",
-  "sport_domain": "https://sport.mangun.io/",
+  "sport_domain": "https://sport.mangun.live/",
   "appName": "manclub",
   "brand": "man.club",
   "bundles": {
