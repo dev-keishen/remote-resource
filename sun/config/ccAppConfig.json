@@ -3,6 +3,8 @@
     "RESOURCE_MINI_GAME_URL" : "https://api.swincloud.net/images/uploads/creator/",
     "RESOURCE_MINI_GAME_URL_APP" : "https://rs.staticmt.net/",
     "RESOURCE_MINI_GAME_URL_WEB" : "https://staticmt.net/minigame/",
+    "RESOURCE_MINI_GAME_URL_APP_PORTRAIT" : "https://rs.staticmt.net/",
+    "RESOURCE_MINI_GAME_URL_WEB_PORTRAIT" : "https://staticmt.net/minigame_portrait/",
     "WS_MINIGAME_SOCKET_URL" : "wss://websocket.swincloud.net/websocket",
     "HELP_URL" : "https://sun.luatchoi.club/luat-choi?x=1&gameId=100",
     "BRAND" : "sun.win"
