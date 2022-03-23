@@ -42,6 +42,18 @@
     "xito": {
       "totalTextFileCount": 682,
       "totalTextImageCount": 211
+    },
+    "g9976L": {
+      "totalTextFileCount": 1103,
+      "totalTextImageCount": 310
+    },
+    "R3986L": {
+      "totalTextFileCount": 988,
+      "totalTextImageCount": 87
+    },
+    "g9938L": {
+      "totalTextFileCount": 1260,
+      "totalTextImageCount": 376
     }
   },
   "bundles": {
@@ -49,13 +61,9 @@
       "totalTextFileCount": 1211,
       "totalTextImageCount": 80
     },
-    "cc30-aladin-9976": {
+    "miteks-games": {
       "totalTextFileCount": 1103,
       "totalTextImageCount": 310
-    },
-    "cc30-sicbo-dp-3986": {
-      "totalTextFileCount": 988,
-      "totalTextImageCount": 87
     },
     "lode": {
       "totalTextFileCount": 310,
