@@ -1,8 +1,8 @@
 {
   "host_domain": "https://cfg.xeui.live/",
   "api_domain": "https://api.xeui.live/",
-  "iFrame_domain": "https://resources.xwin.info/sun-dev/",
-  "rs_domain": "https://resources.xwin.info/sun-dev/",
+  "iFrame_domain": "https://resources.xwin.info/sun-dev-2/",
+  "rs_domain": "https://resources.xwin.info/sun-dev-2/",
   "sport_domain": "https://sport.sandboxg1.win/",
   "ws_sport_domain": "wss://wssport.sandboxg1.win/websocket",
   "tx_livestream_domain": "https://gs.gameland.vip/api-livecasino-go/api/v1/",
