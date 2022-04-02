@@ -30,15 +30,15 @@
       "totalTextFileCount": 285,
       "totalTextImageCount": 11
     },
-    "binh": {
+    "prefab_binh": {
       "totalTextFileCount": 540,
       "totalTextImageCount": 63
     },
-    "lieng": {
+    "prefab_lieng": {
       "totalTextFileCount": 541,
       "totalTextImageCount": 62
     },
-    "poker": {
+    "prefab_poker": {
       "totalTextFileCount": 540,
       "totalTextImageCount": 62
     },
@@ -46,7 +46,7 @@
       "totalTextFileCount": 303,
       "totalTextImageCount": 23
     },
-    "xito": {
+    "prefab_xito": {
       "totalTextFileCount": 541,
       "totalTextImageCount": 62
     }
