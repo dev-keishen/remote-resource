@@ -5,6 +5,8 @@
   "appName": "manclub",
   "brand": "man.club",
   "agency": "mu9",
+  "files_config": {
+  },
   "bundles": {
     "lobby": {
       "totalTextFileCount": 2592,
