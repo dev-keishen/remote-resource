@@ -1,10 +1,10 @@
 {
-  "host_domain": "https://cfg.xeui.io/",
-  "api_domain": "https://api.xeui.io/",
+  "host_domain": "https://cfg.xeui.live/",
+  "api_domain": "https://api.xeui.live/",
   "rs_domain": "https://resources.xwin.info/s3-barca/",
-  "appName": "789club",
+  "appName": "sandbox",
   "brand": "789.club",
-  "agency": "barca",
+  "agency": "mu9",
   "bundles": {
     "lobby": {
       "totalTextFileCount": 2592,
