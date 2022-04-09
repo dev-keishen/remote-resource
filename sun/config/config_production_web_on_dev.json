@@ -1,8 +1,8 @@
 {
   "host_domain": "https://cfg.swinshop.net/",
   "api_domain": "https://api.swinshop.net/",
-  "iFrame_domain": "https://resources.xwin.info/sun-prod/",
-  "rs_domain": "https://resources.xwin.info/sun-prod/",
+  "iFrame_domain": "https://resources.gwin.info/sun-prod/",
+  "rs_domain": "https://resources.gwin.info/sun-prod/",
   "sport_domain": "https://sport.swinshop.net/",
   "ws_sport_domain": "wss://wssport.swinshop.net/websocket",
   "tx_livestream_domain": "https://api-csn-sun.gameland.vip/api/v1/",
