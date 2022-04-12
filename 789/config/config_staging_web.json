@@ -1,10 +1,10 @@
 {
-  "host_domain": "https://cfg.xeui.io/",
-  "api_domain": "https://api.xeui.io/",
+  "host_domain": "https://cfg.xeui.live/",
+  "api_domain": "https://api.xeui.live/",
   "iFrame_domain": "https://resources.xwin.info/789/",
   "rs_domain": "https://resources.xwin.info/789/",
-  "sport_domain": "https://sport.xeui.io/",
-  "appName": "789club",
+  "sport_domain": "https://sport.xeui.live/",
+  "appName": "sandbox",
   "brand": "789.club",
   "files_config": {
     "prefab_baucua": {
@@ -12,6 +12,10 @@
       "totalTextImageCount": 23
     },
     "prefab_xocdia": {
+      "totalTextFileCount": 201,
+      "totalTextImageCount": 18
+    },
+    "prefab_rongho": {
       "totalTextFileCount": 201,
       "totalTextImageCount": 18
     },
@@ -74,6 +78,11 @@
       "totalTextImageCount": 55
     },
     "table-game": {
+      "totalTextFileCount": 251,
+      "totalTextImageCount": 23
+    },
+    ,
+    "rongho": {
       "totalTextFileCount": 251,
       "totalTextImageCount": 23
     },
