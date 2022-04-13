@@ -6,11 +6,11 @@
   "sport_domain": "https://sport.swinshop.net/",
   "ws_sport_domain": "wss://wssport.swinshop.net/websocket",
   "tx_livestream_domain": "https://api-csn-sun.gameland.vip/api/v1/",
-  "tx_livestream_video_url":"https://staticmt.net/livestream/taixiulive_4.html",
-  "tx_livestream_video_url_2":"https://staticmt.net/livestream/taixiulive_4.html",
+  "tx_livestream_video_url":"https://staticmt.net/livestream5/taixiulive.htm",
+  "tx_livestream_video_url_2":"https://staticmt.net/livestream5/taixiulive.htm",
   "tx_livestream_ws_url" : "wss://ws-csn-sun.gameland.vip",
   "xd_livestream_domain": "https://api-xd-sun.gameland.vip/api/v1/",
-  "xd_livestream_video_url":"https://staticmt.net/livestream/xocdialive_2.html",
+  "xd_livestream_video_url":"https://staticmt.net/livestream5/xocdialive.html",
   "appName": "sunprod",
   "brand": "sun.win",
   "files_config": {
@@ -53,8 +53,8 @@
   },
   "bundles": {
     "lobby": {
-      "totalTextFileCount": 1434,
-      "totalTextImageCount": 145
+      "totalTextFileCount": 1490,
+      "totalTextImageCount": 148
     },
     "slot_naruto": {
       "totalTextFileCount": 322,
