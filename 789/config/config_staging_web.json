@@ -16,8 +16,8 @@
       "totalTextImageCount": 18
     },
     "prefab_rongho": {
-      "totalTextFileCount": 201,
-      "totalTextImageCount": 18
+      "totalTextFileCount": 331,
+      "totalTextImageCount": 44
     },
     "prefab_tlmn": {
       "totalTextFileCount": 215,
@@ -46,8 +46,8 @@
   },
   "bundles": {
     "lobby": {
-      "totalTextFileCount": 1176,
-      "totalTextImageCount": 75
+      "totalTextFileCount": 1216,
+      "totalTextImageCount": 79
     },
     "cc30-aladin-9976": {
       "totalTextFileCount": 1103,
