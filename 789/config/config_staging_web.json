@@ -1,8 +1,8 @@
 {
   "host_domain": "https://cfg.xeui.live/",
   "api_domain": "https://api.xeui.live/",
-  "iFrame_domain": "https://resources.xwin.info/789/",
-  "rs_domain": "https://resources.xwin.info/789/",
+  "iFrame_domain": "https://resources.gwin.info/789/",
+  "rs_domain": "https://resources.gwin.info/789/",
   "sport_domain": "https://sport.xeui.live/",
   "appName": "sandbox",
   "brand": "789.club",
