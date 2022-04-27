@@ -1,8 +1,8 @@
 {
   "host_domain": "https://cfg.xeui.live/",
   "api_domain": "https://api.xeui.live/",
-  "iFrame_domain": "https://resources.xwin.info/789-02/",
-  "rs_domain": "https://resources.xwin.info/789-02/",
+  "iFrame_domain": "https://resources.gwin.info/789-02/",
+  "rs_domain": "https://resources.gwin.info/789-02/",
   "sport_domain": "https://sport.xeui.live/",
   "appName": "789club",
   "brand": "789.club",
@@ -52,6 +52,10 @@
       "totalTextImageCount": 87
     },
     "g9938L": {
+      "totalTextFileCount": 1260,
+      "totalTextImageCount": 376
+    },
+    "ktfAllInOne1998": {
       "totalTextFileCount": 1260,
       "totalTextImageCount": 376
     }
