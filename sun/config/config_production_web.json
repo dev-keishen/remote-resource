@@ -30,6 +30,14 @@
       "totalTextFileCount": 302,
       "totalTextImageCount": 10
     },
+    "R3979L": {
+      "totalTextFileCount": 1100,
+      "totalTextImageCount": 125
+    },
+    "R3985L": {
+      "totalTextFileCount": 964,
+      "totalTextImageCount": 190
+    },
     "prefab_sam": {
       "totalTextFileCount": 285,
       "totalTextImageCount": 11
@@ -65,6 +73,10 @@
       "totalTextImageCount": 125
     },
     "cc30-xeng-3985": {
+      "totalTextFileCount": 964,
+      "totalTextImageCount": 190
+    },
+    "miteks": {
       "totalTextFileCount": 964,
       "totalTextImageCount": 190
     },
