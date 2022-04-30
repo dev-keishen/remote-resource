@@ -31,10 +31,10 @@
 
         #soundon {
             position: absolute;
-            left: 92vw;
-            top: 88vh;
+            left: 90vw;
+            top: 86.5vh;
             z-index: 3;
-            width: 6vw;
+            width: 9vw;
             height: auto;
             background-color: transparent;
             border: none;
@@ -43,10 +43,10 @@
 
         #soundoff {
             position: absolute;
-            left: 92vw;
-            top: 88vh;
+            left: 90vw;
+            top: 86.5vh;
             z-index: 3;
-            width: 6vw;
+            width: 9vw;
             height: auto;
             background-color: transparent;
             border: none;
@@ -76,7 +76,7 @@
     };
 
     var streamNames = [
-        "NsbBK-q0nqF?token=6052394a18cc20be2792cdc2"
+        "NsbBK-Kqb3U?token=6052394a18cc20be2792cdc2"
     ];
     var config = {
         "source": {
@@ -181,8 +181,8 @@
                 // middleViewEl.style.width = "7vw";
                 // middleViewEl.style.height = "7vw";
 
-                soundOffEl.style.display = "block";
-                document.getElementById("soundoff").click();
+                var soundoff = document.getElementById('soundoff');
+                soundoff.click();
             },
             "onPause": function (e) {
                 //console.log(e);
