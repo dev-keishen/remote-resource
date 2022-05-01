@@ -181,8 +181,20 @@
                 // middleViewEl.style.width = "7vw";
                 // middleViewEl.style.height = "7vw";
 
-                var soundoff = document.getElementById('soundoff');
-                soundoff.click();
+                var isSafari = navigator.vendor && navigator.vendor.indexOf('Apple') > -1 &&
+                navigator.userAgent &&
+                navigator.userAgent.indexOf('CriOS') == -1 &&
+                navigator.userAgent.indexOf('FxiOS') == -1;
+
+                var isIOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
+
+                if(isSafari || isIOS) {
+                    soundOffEl.style.display = "block";
+                    soundOnEl.style.display = "none";
+                } else {
+                    var soundoff = document.getElementById('soundoff');
+                    soundoff.click();
+                }
             },
             "onPause": function (e) {
                 //console.log(e);

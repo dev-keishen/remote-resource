@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>TaiXiuLiveStream</title>
     <style>
-        html, body {
+        html,
+        body {
             width: 100vw;
             height: 100vh;
             margin: 0;
@@ -55,13 +57,17 @@
     </style>
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
 </head>
+
 <body>
-<div id="playerDiv" class="full-height"></div>
-<video id="h5live-playerDiv" playsinline="playsinline" webkit-playsinline style="background-color: black; width: 100%; height: 100%; position: absolute; left: 50%; top: 50%; margin-right: -50%; transform: translate(-50%, -50%) scaleX(1) scaleY(1) rotate(0deg);"></video>
-<div id="blocktouch-playerDiv" style="width: 100%; height: 100%; position: absolute; left: 50%; top: 50%; margin-right: -50%; transform: translate(-50%, -50%); z-index: 2"></div>
-<!-- <img src="logo.png"> -->
-<img draggable="false" src="./res/sound-off.png" id="soundoff" onclick="soundOn()">
-<img draggable="false" src="./res/sound-on1.png" id="soundon" onclick="soundOff()">
+    <div id="playerDiv" class="full-height"></div>
+    <video id="h5live-playerDiv" playsinline="playsinline" webkit-playsinline
+        style="background-color: black; width: 100%; height: 100%; position: absolute; left: 50%; top: 50%; margin-right: -50%; transform: translate(-50%, -50%) scaleX(1) scaleY(1) rotate(0deg);"></video>
+    <div id="blocktouch-playerDiv"
+        style="width: 100%; height: 100%; position: absolute; left: 50%; top: 50%; margin-right: -50%; transform: translate(-50%, -50%); z-index: 2">
+    </div>
+    <!-- <img src="logo.png"> -->
+    <img draggable="false" src="./res/sound-off.png" id="soundoff" onclick="soundOn()">
+    <img draggable="false" src="./res/sound-on1.png" id="soundon" onclick="soundOff()">
 </body>
 
 <script src="//demo.nanocosmos.de/nanoplayer/api/release/nanoplayer.4.min.js?20210225"></script>
@@ -166,23 +172,31 @@
                 //console.log(e);
             },
             "onReady": function (e) {
-                //console.log(e);
-
                 middleViewEl = document.getElementById('middleView-playerDiv');
-                middleViewEl.ontouchmove = function(event){
+                middleViewEl.ontouchmove = function (event) {
                     event.preventDefault();
                 }
             },
             "onPlay": function (e) {
-                //console.log(e);
-
                 // middleViewEl.style.left = "5%";
                 // middleViewEl.style.top = "91%";
                 // middleViewEl.style.width = "7vw";
                 // middleViewEl.style.height = "7vw";
 
-                var soundoff = document.getElementById('soundoff');
-                soundoff.click();
+                var isSafari = navigator.vendor && navigator.vendor.indexOf('Apple') > -1 &&
+                navigator.userAgent &&
+                navigator.userAgent.indexOf('CriOS') == -1 &&
+                navigator.userAgent.indexOf('FxiOS') == -1;
+
+                var isIOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
+
+                if(isSafari || isIOS) {
+                    soundOffEl.style.display = "block";
+                    soundOnEl.style.display = "none";
+                } else {
+                    var soundoff = document.getElementById('soundoff');
+                    soundoff.click();
+                }
             },
             "onPause": function (e) {
                 //console.log(e);
@@ -201,7 +215,7 @@
             }
         }
     };
-    
+
     document.addEventListener('DOMContentLoaded', function () {
         player = new NanoPlayer("playerDiv");
         player.setup(config).then(function (config) {
@@ -219,32 +233,31 @@
     });
 
     var videoEl = document.getElementById('h5live-playerDiv');
-    videoEl.ontouchmove = function(event){
+    videoEl.ontouchmove = function (event) {
         event.preventDefault();
     }
 
     var blocktouchEl = document.getElementById('blocktouch-playerDiv');
-    blocktouchEl.ontouchmove = function(event){
+    blocktouchEl.ontouchmove = function (event) {
         event.preventDefault();
     }
 
-    blocktouchEl.ontouchstart = function(event){
+    blocktouchEl.ontouchstart = function (event) {
         event.preventDefault();
     }
 
     var soundOffEl = document.getElementById("soundoff");
-    soundOffEl.ontouchmove = function(event){
+    soundOffEl.ontouchmove = function (event) {
         event.preventDefault();
     }
 
     var soundOnEl = document.getElementById("soundon");
-    soundOnEl.ontouchmove = function(event){
+    soundOnEl.ontouchmove = function (event) {
         event.preventDefault();
     }
 
     function soundOn() {
         player.unmute();
-
         soundOffEl.style.display = "none";
         soundOnEl.style.display = "block";
     }
@@ -257,4 +270,5 @@
     }
 
 </script>
+
 </html>
