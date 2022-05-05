@@ -48,18 +48,22 @@
       "totalTextImageCount": 310
     },
     "R3986L": {
-      "totalTextFileCount": 988,
-      "totalTextImageCount": 87
+      "totalTextFileCount": 1060,
+      "totalTextImageCount": 190
     },
     "g9938L": {
       "totalTextFileCount": 1260,
       "totalTextImageCount": 376
+    },
+    "ktfAllInOne1998": {
+      "totalTextFileCount": 1043,
+      "totalTextImageCount": 107
     }
   },
   "bundles": {
     "lobby": {
-      "totalTextFileCount": 1211,
-      "totalTextImageCount": 80
+      "totalTextFileCount": 1539,
+      "totalTextImageCount": 110
     },
     "miteks-games": {
       "totalTextFileCount": 1103,
