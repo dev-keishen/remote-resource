@@ -3,7 +3,11 @@
   "api_domain": "https://api.xeui.live/",
   "iFrame_domain": "https://resources.gwin.info/789/",
   "rs_domain": "https://resources.gwin.info/789/",
-  "sport_domain": "https://sport.xeui.live/",
+  "sport_domain": "https://sport.sandboxg1.win/",
+  "ws_sport_domain": "wss://wssport.sandboxg1.win/websocket",
+  "bc_livestream_domain": "https://gs.gameland.vip/api-livecasino-go-xocdia/api/v1/",
+  "bc_livestream_video_url":"https://staticmt.net/livestream/xocdialive_2.html",
+  "bc_livestream_ws_url" : "wss://gs.gameland.vip/socket",
   "appName": "sandbox",
   "brand": "789.club",
   "files_config": {
