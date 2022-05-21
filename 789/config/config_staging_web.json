@@ -8,6 +8,9 @@
   "bc_livestream_domain": "https://gs.gameland.vip/api-livecasino-go/api/v1/",
   "bc_livestream_video_url":"https://staticmt.net/livestream6/taixiulive.html",
   "bc_livestream_ws_url" : "wss://gs.gameland.vip/socket",
+  "xd_livestream_domain": "https://gs.gameland.vip/api-livecasino-go-xocdia/api/v1/",
+  "xd_livestream_video_url":"https://staticmt.net/livestream/xocdialive_2.html",
+  "xd_livestream_ws_url" : "wss://gs.gameland.vip/socket",
   "appName": "sandbox",
   "brand": "789.club",
   "files_config": {
