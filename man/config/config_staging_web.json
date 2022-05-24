@@ -2,7 +2,7 @@
   "host_domain": "https://cfg.xeui.live/",
   "api_domain": "https://api.xeui.live/",
   "rs_domain": "https://resources.gwin.info/web-staging/",
-  "appName": "789club",
+  "appName": "sandbox",
   "brand": "789.club",
   "bundles": {
     "lobby": {
