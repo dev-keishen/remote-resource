@@ -3,7 +3,7 @@
   "api_domain": "https://api.xeui.live/",
   "rs_domain": "https://resources.gwin.info/web-staging/",
   "appName": "sandbox",
-  "brand": "789.club",
+  "brand": "man.club",
   "bundles": {
     "lobby": {
       "totalTextFileCount": 1064,
