@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TaiXiuLiveStream</title>
+    <style>
+        html, body {
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            -webkit-user-select: none;
+            -webkit-touch-callout: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+        }
+
+        .full-height {
+            height: 100%;
+        }
+
+        /* img {
+            position: absolute;
+            right: 2vw;
+            top: 2vh;
+            z-index: 1;
+            width: 18vw;
+            height: auto;
+        } */
+
+        #soundon {
+            position: absolute;
+            left: 90vw;
+            top: 86.5vh;
+            z-index: 3;
+            width: 9vw;
+            height: auto;
+            background-color: transparent;
+            border: none;
+            display: none;
+        }
+
+        #soundoff {
+            position: absolute;
+            left: 90vw;
+            top: 86.5vh;
+            z-index: 3;
+            width: 9vw;
+            height: auto;
+            background-color: transparent;
+            border: none;
+            display: none;
+        }
+    </style>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+</head>
+<body>
+<div id="playerDiv" class="full-height"></div>
+<video id="h5live-playerDiv" playsinline="playsinline" webkit-playsinline style="background-color: black; width: 100%; height: 100%; position: absolute; left: 50%; top: 50%; margin-right: -50%; transform: translate(-50%, -50%) scaleX(1) scaleY(1) rotate(0deg);"></video>
+<div id="blocktouch-playerDiv" style="width: 100%; height: 100%; position: absolute; left: 50%; top: 50%; margin-right: -50%; transform: translate(-50%, -50%); z-index: 2"></div>
+<!-- <img src="logo.png"> -->
+<img draggable="false" src="./res/sound-off.png" id="soundoff" onclick="soundOn()">
+<img draggable="false" src="./res/sound-on1.png" id="soundon" onclick="soundOff()">
+</body>
+
+<script src="//demo.nanocosmos.de/nanoplayer/api/release/nanoplayer.4.min.js?20210225"></script>
+<script>
+    var player;
+    var middleViewEl;
+    var defaultUrl = "rtmp://bintu-play.nanocosmos.de/play";
+    var defaultServer = {
+        "websocket": "wss://bintu-play.nanocosmos.de:443/h5live/stream",
+        "hls": "https://bintu-play.nanocosmos.de:443/h5live/http/playlist.m3u8",
+        "progressive": "https://bintu-play.nanocosmos.de:443/h5live/http/stream.mp4"
+    };
+
+    var streamNames = [
+        "NsbBK-HXcSi?token=6052394a18cc20be2792cdc2"
+    ];
+    var config = {
+        "source": {
+            "entries": [
+                {
+                    "index": 0,
+                    "label": "high",
+                    "tag": "this is a high quality stream",
+                    "info": {
+                        "bitrate": 1200,
+                        "width": 1280,
+                        "height": 720,
+                        "framerate": 30
+                    },
+                    "h5live": {
+                        "server": defaultServer,
+                        "rtmp": {
+                            "url": defaultUrl,
+                            "streamname": streamNames[0]
+                        }
+                    }
+                },
+                {
+                    "index": 1,
+                    "label": "medium",
+                    "tag": "this is a medium quality stream",
+                    "info": {
+                        "bitrate": 800,
+                        "width": 864,
+                        "height": 480,
+                        "framerate": 30
+                    },
+                    "h5live": {
+                        "server": defaultServer,
+                        "rtmp": {
+                            "url": defaultUrl,
+                            "streamname": streamNames[0]
+                        }
+                    }
+                },
+                {
+                    "index": 2,
+                    "label": "low",
+                    "tag": "this is a low quality stream",
+                    "info": {
+                        "bitrate": 400,
+                        "width": 426,
+                        "height": 240,
+                        "framerate": 15
+                    },
+                    "h5live": {
+                        "server": defaultServer,
+                        "rtmp": {
+                            "url": defaultUrl,
+                            "streamname": streamNames[0]
+                        }
+                    }
+                }
+            ],
+            "options": {
+                "adaption": {
+                    "rule": "none"
+                },
+                "switch": {
+                    'method': 'server',
+                    'pauseOnError': false,
+                    'forcePlay': true,
+                    'fastStart': false,
+                    'timeout': 10,
+                }
+            },
+            "startIndex": 1
+        },
+        "playback": {
+            "autoplay": true,
+            "automute": true,
+            "muted": true
+        },
+        "style": {
+            "displayMutedAutoplay": false,
+            "controls": false,
+            "fullScreenControl": false,
+            "interactive": true,
+            "backgroundColor": "rgba(41, 3, 36, 1)",
+            "symbolColor"    : "rgba(237,125,14,0.8)",
+        },
+        "events": {
+            "onSwitchStreamSuccess": function (e) {
+                //console.log(e);
+            },
+            "onReady": function (e) {
+                //console.log(e);
+
+                middleViewEl = document.getElementById('middleView-playerDiv');
+                middleViewEl.ontouchmove = function(event){
+                    event.preventDefault();
+                }
+            },
+            "onPlay": function (e) {
+                //console.log(e);
+
+                // middleViewEl.style.left = "5%";
+                // middleViewEl.style.top = "91%";
+                // middleViewEl.style.width = "7vw";
+                // middleViewEl.style.height = "7vw";
+
+                var isSafari = navigator.vendor && navigator.vendor.indexOf('Apple') > -1 &&
+                navigator.userAgent &&
+                navigator.userAgent.indexOf('CriOS') == -1 &&
+                navigator.userAgent.indexOf('FxiOS') == -1;
+
+                var isIOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
+
+                if(isSafari || isIOS) {
+                    soundOffEl.style.display = "block";
+                    soundOnEl.style.display = "none";
+                } else {
+                    var soundoff = document.getElementById('soundoff');
+                    soundoff.click();
+                }
+            },
+            "onPause": function (e) {
+                //console.log(e);
+            },
+            "onLoading": function (e) {
+                //console.log(e);
+            },
+            "onStartBuffering": function (e) {
+                //console.log(e);
+            },
+            "onStopBuffering": function (e) {
+                //console.log(e);
+
+                // middleViewEl.style.width = "7vw";
+                // middleViewEl.style.height = "7vw";
+            }
+        }
+    };
+    
+    document.addEventListener('DOMContentLoaded', function () {
+        player = new NanoPlayer("playerDiv");
+        player.setup(config).then(function (config) {
+            // console.log("setup success");
+            // console.log("config: " + JSON.stringify(config, undefined, 4));
+
+            // var controlsEl = document.getElementById('controls-playerDiv');
+            // controlsEl.ontouchmove = function(event){
+            //     event.preventDefault();
+            // }
+
+        }, function (error) {
+            alert(error.message);
+        });
+    });
+
+    var videoEl = document.getElementById('h5live-playerDiv');
+    videoEl.ontouchmove = function(event){
+        event.preventDefault();
+    }
+
+    var blocktouchEl = document.getElementById('blocktouch-playerDiv');
+    blocktouchEl.ontouchmove = function(event){
+        event.preventDefault();
+    }
+
+    blocktouchEl.ontouchstart = function(event){
+        event.preventDefault();
+    }
+
+    var soundOffEl = document.getElementById("soundoff");
+    soundOffEl.ontouchmove = function(event){
+        event.preventDefault();
+    }
+
+    var soundOnEl = document.getElementById("soundon");
+    soundOnEl.ontouchmove = function(event){
+        event.preventDefault();
+    }
+
+    function soundOn() {
+        player.unmute();
+
+        soundOffEl.style.display = "none";
+        soundOnEl.style.display = "block";
+    }
+
+    function soundOff() {
+        player.mute();
+
+        soundOffEl.style.display = "block";
+        soundOnEl.style.display = "none";
+    }
+
+</script>
+</html>
