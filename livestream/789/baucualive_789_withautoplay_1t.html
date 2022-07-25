@@ -245,7 +245,7 @@
     };
 
     var streamNames = [
-        "NsbBK-HXcSi?token=6052394a18cc20be2792cdc2"
+        "NsbBK-YjONh?token=6052394a18cc20be2792cdc2"
     ];
     var config = {
         "source": {
@@ -330,23 +330,22 @@
             "fullScreenControl": false,
             "interactive": true,
             "backgroundColor": "rgba(41, 3, 36, 1)",
-            "symbolColor": "rgba(237,125,14,0)",
+            "symbolColor": "rgba(237,125,14,255)",
         },
         "events": {
             "onSwitchStreamSuccess": function (e) {
                 //console.log(e);
             },
             "onReady": function (e) {
-                //console.log(e);
-
                 middleViewEl = document.getElementById('middleView-playerDiv');
                 middleViewEl.ontouchmove = function (event) {
                     event.preventDefault();
                 }
+
+                var videoEl = document.getElementById('playerDiv');
+                videoEl.style.display = "none";
             },
             "onPlay": function (e) {
-                //console.log(e);
-
                 // middleViewEl.style.left = "5%";
                 // middleViewEl.style.top = "91%";
                 // middleViewEl.style.width = "7vw";
@@ -369,12 +368,14 @@
 
                 var spinner = document.getElementById('spinner');
                 spinner.style.display = "none";
+
+                var videoEl = document.getElementById('playerDiv');
+                videoEl.style.display = "block";
             },
             "onPause": function (e) {
                 //console.log(e);
             },
             "onLoading": function (e) {
-                //console.log(e);
             },
             "onStartBuffering": function (e) {
                 //console.log(e);
@@ -430,7 +431,6 @@
 
     function soundOn() {
         player.unmute();
-
         soundOffEl.style.display = "none";
         soundOnEl.style.display = "block";
     }
