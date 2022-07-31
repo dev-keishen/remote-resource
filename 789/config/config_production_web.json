@@ -5,10 +5,10 @@
   "rs_domain": "https://game.789c.club/",
   "sport_domain": "https://sport.xeui.live/",
   "ws_sport_domain": "wss://wssport.xeui.live/websocket",
-  "bc_livestream_domain": "https://api-bc-789.gameland.vip/api/v1/",
-  "bc_livestream_video_url":"https://resources.gwin.info/789/xocdialive_789_withautoplay_1g.html",
+ "bc_livestream_domain": "https://api-bc-789.gameland.vip/api/v1/",
+  "bc_livestream_video_url":"https://resources.gwin.info/789/baucualive_789_withautoplay_1g.html",
   "bc_livestream_ws_url" : "wss://socket-bc-789.gameland.vip/",
-  "xd_livestream_domain": "https://api-bc-789.gameland.vip/api/v1/",
+  "xd_livestream_domain": "https://api-xd-789.gameland.vip/api/v1/",
   "xd_livestream_video_url":"https://resources.gwin.info/789/xocdialive_789_withautoplay_1g.html",
   "xd_livestream_ws_url" : "wss://socket-bc-789.gameland.vip/",
   "appName": "789club",
@@ -69,6 +69,14 @@
     "g9930L": {
       "totalTextFileCount": 1894,
       "totalTextImageCount": 529
+    },
+    "bc_live": {
+      "totalTextFileCount": 334,
+      "totalTextImageCount": 30
+    },
+    "xd_live": {
+      "totalTextFileCount": 379,
+      "totalTextImageCount": 63
     }
   },
   "bundles": {
@@ -125,6 +133,10 @@
       "totalTextImageCount": 12
     },
     "ca": {
+      "totalTextFileCount": 1378,
+      "totalTextImageCount": 148
+    },
+    "baucualivestream": {
       "totalTextFileCount": 1378,
       "totalTextImageCount": 148
     },

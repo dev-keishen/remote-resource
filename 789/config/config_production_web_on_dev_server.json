@@ -65,6 +65,14 @@
     "ktfAllInOne1998": {
       "totalTextFileCount": 1260,
       "totalTextImageCount": 376
+    },
+    "bc_live": {
+      "totalTextFileCount": 1043,
+      "totalTextImageCount": 30
+    },
+    "xd_live": {
+      "totalTextFileCount": 379,
+      "totalTextImageCount": 63
     }
   },
   "bundles": {
