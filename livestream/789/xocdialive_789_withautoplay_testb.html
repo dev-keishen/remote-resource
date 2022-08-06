@@ -1,0 +1,36 @@
+<div id="playerDiv"></div>
+<script src="https://demo.nanocosmos.de/nanoplayer/api/release/nanoplayer.4.min.js?20200819"></script>
+<script>
+var player;
+var config = {
+	"source": {
+		"defaults": {
+			"service": "bintu"
+		},
+		"entries": [
+			{
+				"index": 0,
+				"h5live": {
+					"rtmp": {
+						"streamname": "Ef0Gr-JJJ6p"
+					}
+				}
+			}
+		]
+	},
+	"playback": {
+		"autoplay": true,
+		"automute": true,
+		"muted": false
+	}
+};
+document.addEventListener('DOMContentLoaded', function () {
+    player = new NanoPlayer("playerDiv");
+    player.setup(config).then(function (config) {
+        console.log("setup success");
+        console.log("config: " + JSON.stringify(config, undefined, 4));
+    }, function (error) {
+        alert(error.message);
+    });
+});
+</script>
