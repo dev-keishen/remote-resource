@@ -245,7 +245,7 @@
     };
 
     var streamNames = [
-        "NsbBK-HXcSi?token=6052394a18cc20be2792cdc2"
+        "NsbBK-YjONh?token=6052394a18cc20be2792cdc2"
     ];
     var config = {
         "source": {
@@ -337,8 +337,6 @@
                 //console.log(e);
             },
             "onReady": function (e) {
-                //console.log(e);
-
                 middleViewEl = document.getElementById('middleView-playerDiv');
                 middleViewEl.ontouchmove = function (event) {
                     event.preventDefault();
@@ -348,30 +346,12 @@
                 videoEl.style.display = "none";
             },
             "onPlay": function (e) {
-                //console.log(e);
-
                 // middleViewEl.style.left = "5%";
                 // middleViewEl.style.top = "91%";
                 // middleViewEl.style.width = "7vw";
                 // middleViewEl.style.height = "7vw";
-
-                var isSafari = navigator.vendor && navigator.vendor.indexOf('Apple') > -1 &&
-                    navigator.userAgent &&
-                    navigator.userAgent.indexOf('CriOS') == -1 &&
-                    navigator.userAgent.indexOf('FxiOS') == -1;
-
-                let isAndroid = /Android/i.test(navigator.userAgent);
-
-                var isIOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
-
-                if (isSafari || isIOS || isAndroid) {
-                    soundOffEl.style.display = "block";
-                    soundOnEl.style.display = "none";
-                    player.setVolume(0);
-                } else {
-                    var soundoff = document.getElementById('soundoff');
-                    soundoff.click();
-                }
+                var soundoff = document.getElementById('soundoff');
+                soundoff.click();
 
                 var spinner = document.getElementById('spinner');
                 spinner.style.display = "none";
@@ -383,7 +363,6 @@
                 //console.log(e);
             },
             "onLoading": function (e) {
-                //console.log(e);
             },
             "onStartBuffering": function (e) {
                 //console.log(e);
@@ -439,10 +418,8 @@
 
     function soundOn() {
         player.unmute();
-
         soundOffEl.style.display = "none";
         soundOnEl.style.display = "block";
-        player.setVolume(1);
     }
 
     function soundOff() {
@@ -450,7 +427,6 @@
 
         soundOffEl.style.display = "block";
         soundOnEl.style.display = "none";
-        player.setVolume(0);
     }
 
 </script>
