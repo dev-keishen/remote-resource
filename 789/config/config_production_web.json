@@ -49,6 +49,10 @@
     "xito": {
       "totalTextFileCount": 682,
       "totalTextImageCount": 211
+    }, 
+    "g9937L": {
+      "totalTextFileCount": 734,
+      "totalTextImageCount": 95
     },
     "g9976L": {
       "totalTextFileCount": 1103,
@@ -71,8 +75,8 @@
       "totalTextImageCount": 529
     },
     "bc_live": {
-      "totalTextFileCount": 334,
-      "totalTextImageCount": 30
+      "totalTextFileCount": 342,
+      "totalTextImageCount": 32
     },
     "xd_live": {
       "totalTextFileCount": 379,
