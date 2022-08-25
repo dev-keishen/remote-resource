@@ -6,6 +6,6 @@
     "RESOURCE_MINI_GAME_URL_APP_PORTRAIT" : "https://rs.staticmt.net/minigame-portrait/",
     "RESOURCE_MINI_GAME_URL_WEB_PORTRAIT" : "https://staticmt.net/minigame_portrait/3.0.0/",
     "WS_MINIGAME_SOCKET_URL" : "wss://websocket.swincc.io/websocket",
-    "HELP_URL" : "https://rule.swincc.io/?",
+    "HELP_URL" : "https://rule.swinshop.net/?",
     "BRAND" : "sun.win"
 }
