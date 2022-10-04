@@ -69,6 +69,10 @@
     "miteks": {
       "totalTextFileCount": 10,
       "totalTextImageCount": 10
+    },
+    "miteks2": {
+      "totalTextFileCount": 10,
+      "totalTextImageCount": 10
     }
   }
 }
