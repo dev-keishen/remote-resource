@@ -1,8 +1,8 @@
 {
   "host_domain": "https://cfg.xeuicc.io/",
   "api_domain": "https://api.xeuicc.io/",
-  "iFrame_domain": "https://game.789d.club/",
-  "rs_domain": "https://game.789d.club/",
+  "iFrame_domain": "https://789static.net/",
+  "rs_domain": "https://789static.net/",
   "sport_domain": "https://sport.xeuicc.io/",
   "ws_sport_domain": "wss://wssport.xeuicc.io/websocket",
  "bc_livestream_domain": "https://api-bc-789.gameland.vip/api/v1/",
