@@ -62,6 +62,14 @@
     "ktfAllInOne1998": {
       "totalTextFileCount": 1043,
       "totalTextImageCount": 107
+    },
+    "bc_live": {
+      "totalTextFileCount": 351,
+      "totalTextImageCount": 35
+    },
+    "xd_live": {
+      "totalTextFileCount": 392,
+      "totalTextImageCount": 66
     }
   },
   "bundles": {
@@ -132,6 +140,10 @@
     "caothap": {
       "totalTextFileCount": 260,
       "totalTextImageCount": 25
+    },
+    "baucualivestream": {
+      "totalTextFileCount": 1378,
+      "totalTextImageCount": 148
     },
     "rongho": {
       "totalTextFileCount": 271,
