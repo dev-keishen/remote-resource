@@ -83,7 +83,7 @@
   },
   "bundles": {
     "lobby": {
-      "totalTextFileCount": 1607,
+      "totalTextFileCount": 1621,
       "totalTextImageCount": 128
     },
     "miteks-games": {
@@ -145,6 +145,10 @@
     "dragonball": {
       "totalTextFileCount": 247,
       "totalTextImageCount": 6
+    },
+    "slot_event_wc": {
+      "totalTextFileCount": 32,
+      "totalTextImageCount": 5
     },
     "trenduoi": {
       "totalTextFileCount": 325,
