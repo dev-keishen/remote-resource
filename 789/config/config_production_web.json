@@ -21,8 +21,8 @@
       "totalTextImageCount": 18
     }, 
     "prefab_xocdia_squidgame": {
-      "totalTextFileCount": 201,
-      "totalTextImageCount": 30
+      "totalTextFileCount": 266,
+      "totalTextImageCount": 22
     },
     "prefab_tlmn": {
       "totalTextFileCount": 215,
@@ -87,8 +87,8 @@
   },
   "bundles": {
     "lobby": {
-      "totalTextFileCount": 1621,
-      "totalTextImageCount": 128
+      "totalTextFileCount": 1630,
+      "totalTextImageCount": 130
     },
     "miteks-games": {
       "totalTextFileCount": 1103,
