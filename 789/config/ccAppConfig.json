@@ -1,10 +1,10 @@
 {
-    "DOMAIN" : "https://api.xeuidd.io",
-    "RESOURCE_MINI_GAME_URL" : "https://api.xeuidd.io/images/uploads/creator/",
-    "RESOURCE_MINI_GAME_URL_WEB" : "https://game.789.vegas/minigame/",
-    "WS_MINIGAME_SOCKET_URL" : "wss://websocket.xeuidd.io/websocket",
-    "RESOURCE_MINI_GAME_URL_APP_PORTRAIT" : "https://game.789.vegas/minigames-portrait-app/",
-    "RESOURCE_MINI_GAME_URL_WEB_PORTRAIT" : "https://game.789.vegas/minigames-portrait-web/",
+    "DOMAIN" : "https://api.xeuiee.io",
+    "RESOURCE_MINI_GAME_URL" : "https://api.xeuiee.io/images/uploads/creator/",
+    "RESOURCE_MINI_GAME_URL_WEB" : "https://game.789.mobi/minigame/",
+    "WS_MINIGAME_SOCKET_URL" : "wss://websocket.xeuiee.io/websocket",
+    "RESOURCE_MINI_GAME_URL_APP_PORTRAIT" : "https://game.789.mobi/minigames-portrait-app/",
+    "RESOURCE_MINI_GAME_URL_WEB_PORTRAIT" : "https://game.789.mobi/minigames-portrait-web/",
     "HELP_URL" : "https://kenhgame.cc/luat-choi?x=1&gameId=219",
     "BRAND" : "789.club"
 }
