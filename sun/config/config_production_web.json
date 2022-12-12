@@ -5,7 +5,7 @@
   "rs_domain": "https://staticmt.net/",
   "sport_domain": "https://sport.swinii.io/",
   "ws_sport_domain": "wss://wssport.swinii.io/websocket",
-  "tx_livestream_domain": "https://api-csn-sun.gameland.vip/api/v1/",
+  "tx_livestream_domain": "https://api-csn-sun.gameland.today/api/v1/",
   "tx_livestream_video_url":"https://staticmt.net/livestream6/taixiulive.html",
   "tx_livestream_video_url_2":"https://staticmt.net/livestream5/taixiulive.html",
   "tx_livestream_ws_url" : "wss://ws-csn-sun.gameland.vip",
