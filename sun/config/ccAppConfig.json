@@ -1,11 +1,11 @@
 {
-    "DOMAIN" : "https://api.swinii.io",
-    "RESOURCE_MINI_GAME_URL" : "https://api.swinii.io/images/uploads/creator/",
+    "DOMAIN" : "https://api.swinkk.io",
+    "RESOURCE_MINI_GAME_URL" : "https://api.swinkk.io/images/uploads/creator/",
     "RESOURCE_MINI_GAME_URL_APP" : "https://rs.staticmt.net/",
     "RESOURCE_MINI_GAME_URL_WEB" : "https://staticmt.net/minigame/",
     "RESOURCE_MINI_GAME_URL_APP_PORTRAIT" : "https://rs.staticmt.net/minigame-portrait/",
     "RESOURCE_MINI_GAME_URL_WEB_PORTRAIT" : "https://staticmt.net/minigame_portrait/3.0.0/",
-    "WS_MINIGAME_SOCKET_URL" : "wss://websocket.swinii.io/websocket",
+    "WS_MINIGAME_SOCKET_URL" : "wss://websocket.swinkk.io/websocket",
     "HELP_URL" : "https://rule.swinshop.net/?",
     "BRAND" : "sun.win"
 }
