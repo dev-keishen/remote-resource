@@ -7,12 +7,12 @@
   "ws_sport_domain": "wss://wssport.swinkk.io/websocket",
   "xd_live_version": "1.0.1",
   "tx_livestream_domain": "https://api-csn-sun.gameland.today/api/v1/",
-  "tx_livestream_video_url":"https://staticmt.net/livestream6/taixiulive.html",
-  "tx_livestream_video_url_2":"https://staticmt.net/livestream5/taixiulive.html",
-  "tx_livestream_ws_url" : "wss://ws-csn-sun.gameland.vip",
+  "tx_livestream_video_url": "https://staticmt.net/livestream6/taixiulive.html",
+  "tx_livestream_video_url_2": "https://staticmt.net/livestream5/taixiulive.html",
+  "tx_livestream_ws_url": "wss://ws-csn-sun.gameland.vip",
   "xd_livestream_domain": "https://api-xd-sun.gameland.vip/api/v1/",
-  "xd_livestream_video_url":"https://staticmt.net/livestream6/xocdialive.html",
-  "xd_livestream_ws_url" : "wss://ws-xocdia-ls.swinkk.io/websocket",
+  "xd_livestream_video_url": "https://staticmt.net/livestream6/xocdialive.html",
+  "xd_livestream_ws_url": "wss://ws-xocdia-ls.swinkk.io/websocket",
   "appName": "sunprod",
   "brand": "sun.win",
   "files_config": {
@@ -134,7 +134,7 @@
       "totalTextFileCount": 318,
       "totalTextImageCount": 56
     },
-"slot_thuycung": {
+    "slot_thuycung": {
       "totalTextFileCount": 417,
       "totalTextImageCount": 84
     },
@@ -177,6 +177,10 @@
     "taixiulivestream": {
       "totalTextFileCount": 413,
       "totalTextImageCount": 26
+    },
+    "game_webview": {
+      "totalTextFileCount": 11,
+      "totalTextImageCount": 7
     }
   }
 }
