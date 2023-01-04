@@ -7,7 +7,7 @@
   "ws_sport_domain": "wss://wssport.swinshop.net/websocket",
   "tx_livestream_domain": "https://api-csn-sun.gameland.vip/api/v1/",
   "tx_livestream_video_url":"https://resources.gwin.info/livestream_fixed9/taixiulive.html",
-  "tx_livestream_ws_url" : "wss:ws-taixiu-ls.swinkk.io/websocket",
+  "tx_livestream_ws_url" : "wss://ws-taixiu-ls.swinkk.io/websocket",
   "xd_livestream_domain": "https://api-xd-sun.gameland.vip/api/v1/",
   "xd_livestream_video_url":"https://resources.gwin.info/livestream_fixed9/xocdialive.html",
   "xd_livestream_ws_url" : "wss://ws-xocdia-ls.swinkk.io/websocket",
