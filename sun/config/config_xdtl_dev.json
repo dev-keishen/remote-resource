@@ -1,6 +1,0 @@
-{
-    "API_URL": "https://api.xeui.io/",
-    "WS_URL": "wss://websocket.swinshop.net/websocket2",
-    "REFRESH_TOKEN_URL": "https://api.swinshop.net/id?command=refreshToken&refreshToken=",
-    "SA_DOMAIN_URL":"https://api.swinshop.net/sa"
-}
