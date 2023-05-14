@@ -1,6 +1,6 @@
 {
     "DOMAIN" : "https://api.xeuipp.io",
-    "RESOURCE_MINI_GAME_URL" : "https://api.xeuipp.io/images/uploads/creator/",
+    "RESOURCE_MINI_GAME_URL" : "https://game.789t.club/minigames-landscape-app/",
     "RESOURCE_MINI_GAME_URL_WEB" : "https://game.789t.club/minigame/",
     "WS_MINIGAME_SOCKET_URL" : "wss://websocket.xeuipp.io/websocket",
     "RESOURCE_MINI_GAME_URL_APP_PORTRAIT" : "https://game.789t.club/minigames-portrait-app/",
