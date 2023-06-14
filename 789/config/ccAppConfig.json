@@ -1,10 +1,10 @@
 {
     "DOMAIN" : "https://api.apxotph.com",
-    "RESOURCE_MINI_GAME_URL" : "https://game.789p.club/minigames-landscape-app/",
-    "RESOURCE_MINI_GAME_URL_WEB" : "https://game.789t.club/minigame/",
+    "RESOURCE_MINI_GAME_URL" : "https://game.789y.club/minigames-landscape-app/",
+    "RESOURCE_MINI_GAME_URL_WEB" : "https://game.789y.club/minigame/",
     "WS_MINIGAME_SOCKET_URL" : "wss://websocket.apxotph.com/websocket",
-    "RESOURCE_MINI_GAME_URL_APP_PORTRAIT" : "https://game.789p.club/minigames-portrait-app/",
-    "RESOURCE_MINI_GAME_URL_WEB_PORTRAIT" : "https://game.789p.club/minigames-portrait-web/",
+    "RESOURCE_MINI_GAME_URL_APP_PORTRAIT" : "https://game.789y.club/minigames-portrait-app/",
+    "RESOURCE_MINI_GAME_URL_WEB_PORTRAIT" : "https://game.789y.club/minigames-portrait-web/",
     "HELP_URL" : "https://kenhgame.cc/luat-choi?x=1&gameId=219",
     "BRAND" : "789.club"
 }
