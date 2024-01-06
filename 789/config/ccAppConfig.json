@@ -1,10 +1,10 @@
 {
     "DOMAIN" : "https://api.atpman.net",
-    "RESOURCE_MINI_GAME_URL" : "https://game.789club.vip/minigames-landscape-app/",
-    "RESOURCE_MINI_GAME_URL_WEB" : "https://game.789club.vip/minigame/",
+    "RESOURCE_MINI_GAME_URL" : "https://rsweb.789static.com/minigames-landscape-app/",
+    "RESOURCE_MINI_GAME_URL_WEB" : "https://rsweb.789static.com/minigame/",
     "WS_MINIGAME_SOCKET_URL" : "wss://websocket.atpman.net/websocket",
-    "RESOURCE_MINI_GAME_URL_APP_PORTRAIT" : "https://game.789club.vip/minigames-portrait-app/",
-    "RESOURCE_MINI_GAME_URL_WEB_PORTRAIT" : "https://game.789club.vip/minigames-portrait-web/",
+    "RESOURCE_MINI_GAME_URL_APP_PORTRAIT" : "https://rsweb.789static.com/minigames-portrait-app/",
+    "RESOURCE_MINI_GAME_URL_WEB_PORTRAIT" : "https://rsweb.789static.com/minigames-portrait-web/",
     "HELP_URL" : "https://thef.vip/luat-choi?x=1&gameId=219",
     "BRAND" : "789.club"
 }
